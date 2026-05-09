@@ -69,7 +69,7 @@ class Qwen3EmbeddingClient:
 
     def __init__(
         self,
-        model_path:   Optional[str] =  "/Users/dbk/Desktop/agentic-graph-RAG/models/Qwen3-Embedding-0.6B",
+        model_path:   Optional[str] =  "/models/Qwen3-Embedding-0.6B",
         device:       Optional[str] = None,
         use_fp16:     bool = True,
         use_4bit:     bool = False,
